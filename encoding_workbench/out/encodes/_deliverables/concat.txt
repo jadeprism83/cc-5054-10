@@ -1,0 +1,3 @@
+file '/workspace/encoding_workbench/out/encodes/_deliverables/seg1_title_selected.mp4'
+file '/workspace/encoding_workbench/out/encodes/_deliverables/seg2_fabric_selected.mp4'
+file '/workspace/encoding_workbench/out/encodes/_deliverables/seg3_static_selected.mp4'

@@ -1,0 +1,66 @@
+{
+  "plan_key": "joint",
+  "budget_bytes": 387715,
+  "grid_total_bytes": 386363,
+  "delivered_mp4_total_bytes": 386363,
+  "within_budget_grid": true,
+  "within_budget_delivered": true,
+  "over_by_bytes": 0,
+  "per_segment": [
+    {
+      "segment": "seg1_title",
+      "source": "/workspace/encoding_workbench/out/encodes/seg1_title/seg1_title_x264_1920x1080_1080p_q4_fair.mp4",
+      "deliverable": "/workspace/encoding_workbench/out/encodes/_deliverables/seg1_title_selected.mp4",
+      "grid_bytes": 67496,
+      "file": "/workspace/encoding_workbench/out/encodes/_deliverables/seg1_title_selected.mp4",
+      "file_bytes": 67496,
+      "stream_bytes": 65197,
+      "overhead_bytes": 2299,
+      "overhead_pct": 3.406
+    },
+    {
+      "segment": "seg2_fabric",
+      "source": "/workspace/encoding_workbench/out/encodes/seg2_fabric/seg2_fabric_x264_854x480_480p_q3_good.mp4",
+      "deliverable": "/workspace/encoding_workbench/out/encodes/_deliverables/seg2_fabric_selected.mp4",
+      "grid_bytes": 310433,
+      "file": "/workspace/encoding_workbench/out/encodes/_deliverables/seg2_fabric_selected.mp4",
+      "file_bytes": 310433,
+      "stream_bytes": 309066,
+      "overhead_bytes": 1367,
+      "overhead_pct": 0.44
+    },
+    {
+      "segment": "seg3_static",
+      "source": "/workspace/encoding_workbench/out/encodes/seg3_static/seg3_static_x264_854x480_480p_q6_extreme.mp4",
+      "deliverable": "/workspace/encoding_workbench/out/encodes/_deliverables/seg3_static_selected.mp4",
+      "grid_bytes": 8434,
+      "file": "/workspace/encoding_workbench/out/encodes/_deliverables/seg3_static_selected.mp4",
+      "file_bytes": 8434,
+      "stream_bytes": 6579,
+      "overhead_bytes": 1855,
+      "overhead_pct": 21.994
+    }
+  ],
+  "full_film_mkv": {
+    "file": "/workspace/encoding_workbench/out/encodes/_deliverables/short_film_full.mkv",
+    "file_bytes": 384133,
+    "stream_bytes": 380970,
+    "overhead_bytes": 3163,
+    "overhead_pct": 0.823
+  },
+  "preview_mp4": {
+    "file": "/workspace/encoding_workbench/out/encodes/_deliverables/short_film_preview_720p.mp4",
+    "file_bytes": 1057808,
+    "stream_bytes": 1053519,
+    "overhead_bytes": 4289,
+    "overhead_pct": 0.405
+  },
+  "gate_history": [
+    {
+      "round": 1,
+      "budget": 387715,
+      "delivered": 386363,
+      "within": true
+    }
+  ]
+}

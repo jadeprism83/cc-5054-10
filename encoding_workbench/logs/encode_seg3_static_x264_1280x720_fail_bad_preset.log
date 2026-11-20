@@ -1,0 +1,25 @@
+Input #0, matroska,webm, from '/workspace/encoding_workbench/out/sources/seg3_static.mkv':
+  Metadata:
+    ENCODER         : Lavf61.1.100
+  Duration: 00:00:04.00, start: 0.000000, bitrate: 28988 kb/s
+  Stream #0:0: Video: ffv1 (FFV1 / 0x31564646), yuv420p(progressive), 1920x1080, SAR 1:1 DAR 16:9, 30 fps, 30 tbr, 1k tbn
+      Metadata:
+        ENCODER         : Lavc61.3.100 ffv1
+        DURATION        : 00:00:04.000000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (ffv1 (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+x264 [error]: invalid preset 'turbocharger'
+[libx264 @ 0x68872c0] Error setting preset/tune turbocharger/(null).
+[libx264 @ 0x68872c0] Possible presets: ultrafast superfast veryfast faster fast medium slow slower veryslow placebo
+[libx264 @ 0x68872c0] Possible tunes: film animation grain stillimage psnr ssim fastdecode zerolatency
+[vost#0:0/libx264 @ 0x6886d80] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+[vf#0:0 @ 0x6979200] Error sending frames to consumers: Invalid argument
+[vf#0:0 @ 0x6979200] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x6886d80] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x6886d80] Task finished with error code: -22 (Invalid argument)
+[vf#0:0 @ 0x6979200] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x6886d80] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x6886340] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
