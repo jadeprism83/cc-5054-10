@@ -1,0 +1,1146 @@
+{
+  "run_id": "b2a04e728914",
+  "policy": "head_first",
+  "order_key": "burst_mid",
+  "order": [
+    "head_static",
+    "burst",
+    "mid_fabric"
+  ],
+  "floors": {
+    "head_static": 0.985,
+    "mid_fabric": 0.985,
+    "burst": 0.93
+  },
+  "budget_frames": 5580,
+  "frames_spent": 0,
+  "created_at": "2026-11-21 07:09:48",
+  "candidates": {
+    "1080p_q1_visually_lossless": {
+      "config": {
+        "config_id": "1080p_q1_visually_lossless",
+        "res_label": "1080p",
+        "q_label": "q1_visually_lossless",
+        "width": 1920,
+        "height": 1080,
+        "crf": 18
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.991674,
+        "ssim_lower": 0.991674,
+        "ssim_upper": 0.991674,
+        "bytes_mean": 4055269,
+        "bytes_lower": 4055269,
+        "bytes_upper": 4055269,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.942662,
+          "ssim_min": 0.814989,
+          "file_bytes": 89116,
+          "frames": 60,
+          "encode_secs": 3.852,
+          "job_id": "full_1080p_q1_visually_lossless_burst"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.999204,
+          "ssim_min": 0.999063,
+          "file_bytes": 693559,
+          "frames": 270,
+          "encode_secs": 9.242,
+          "job_id": "full_1080p_q1_visually_lossless_head_static"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.999236,
+          "ssim_min": 0.998872,
+          "file_bytes": 3272594,
+          "frames": 120,
+          "encode_secs": 9.452,
+          "job_id": "full_1080p_q1_visually_lossless_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "1080p_q2_high": {
+      "config": {
+        "config_id": "1080p_q2_high",
+        "res_label": "1080p",
+        "q_label": "q2_high",
+        "width": 1920,
+        "height": 1080,
+        "crf": 23
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.991184,
+        "ssim_lower": 0.991184,
+        "ssim_upper": 0.991184,
+        "bytes_mean": 2607093,
+        "bytes_lower": 2607093,
+        "bytes_upper": 2607093,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998837,
+          "ssim_min": 0.998719,
+          "file_bytes": 394617,
+          "frames": 270,
+          "encode_secs": 8.341,
+          "job_id": "full_1080p_q2_high_head_static"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.942399,
+          "ssim_min": 0.809541,
+          "file_bytes": 85612,
+          "frames": 60,
+          "encode_secs": 4.318,
+          "job_id": "full_1080p_q2_high_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998359,
+          "ssim_min": 0.997559,
+          "file_bytes": 2126864,
+          "frames": 120,
+          "encode_secs": 6.256,
+          "job_id": "full_1080p_q2_high_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "1080p_q3_good": {
+      "config": {
+        "config_id": "1080p_q3_good",
+        "res_label": "1080p",
+        "q_label": "q3_good",
+        "width": 1920,
+        "height": 1080,
+        "crf": 28
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.990294,
+        "ssim_lower": 0.990294,
+        "ssim_upper": 0.990294,
+        "bytes_mean": 1578490,
+        "bytes_lower": 1578490,
+        "bytes_upper": 1578490,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998434,
+          "ssim_min": 0.998349,
+          "file_bytes": 213201,
+          "frames": 270,
+          "encode_secs": 7.124,
+          "job_id": "full_1080p_q3_good_head_static"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.94207,
+          "ssim_min": 0.809823,
+          "file_bytes": 82576,
+          "frames": 60,
+          "encode_secs": 2.953,
+          "job_id": "full_1080p_q3_good_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.996091,
+          "ssim_min": 0.994403,
+          "file_bytes": 1282713,
+          "frames": 120,
+          "encode_secs": 6.21,
+          "job_id": "full_1080p_q3_good_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "1080p_q4_fair": {
+      "config": {
+        "config_id": "1080p_q4_fair",
+        "res_label": "1080p",
+        "q_label": "q4_fair",
+        "width": 1920,
+        "height": 1080,
+        "crf": 33
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.988754,
+        "ssim_lower": 0.988754,
+        "ssim_upper": 0.988754,
+        "bytes_mean": 892384,
+        "bytes_lower": 892384,
+        "bytes_upper": 892384,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.941892,
+          "ssim_min": 0.80993,
+          "file_bytes": 72220,
+          "frames": 60,
+          "encode_secs": 4.153,
+          "job_id": "full_1080p_q4_fair_burst"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.997943,
+          "ssim_min": 0.997858,
+          "file_bytes": 114345,
+          "frames": 270,
+          "encode_secs": 4.84,
+          "job_id": "full_1080p_q4_fair_head_static"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.991511,
+          "ssim_min": 0.989497,
+          "file_bytes": 705819,
+          "frames": 120,
+          "encode_secs": 5.762,
+          "job_id": "full_1080p_q4_fair_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "1080p_q5_coarse": {
+      "config": {
+        "config_id": "1080p_q5_coarse",
+        "res_label": "1080p",
+        "q_label": "q5_coarse",
+        "width": 1920,
+        "height": 1080,
+        "crf": 38
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.984804,
+        "ssim_lower": 0.984804,
+        "ssim_upper": 0.984804,
+        "bytes_mean": 292876,
+        "bytes_lower": 292876,
+        "bytes_upper": 292876,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.997306,
+          "ssim_min": 0.9972,
+          "file_bytes": 69556,
+          "frames": 270,
+          "encode_secs": 4.067,
+          "job_id": "full_1080p_q5_coarse_head_static"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.940512,
+          "ssim_min": 0.807236,
+          "file_bytes": 68359,
+          "frames": 60,
+          "encode_secs": 2.806,
+          "job_id": "full_1080p_q5_coarse_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.97882,
+          "ssim_min": 0.972597,
+          "file_bytes": 154961,
+          "frames": 120,
+          "encode_secs": 4.57,
+          "job_id": "full_1080p_q5_coarse_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "1080p_q6_extreme": {
+      "config": {
+        "config_id": "1080p_q6_extreme",
+        "res_label": "1080p",
+        "q_label": "q6_extreme",
+        "width": 1920,
+        "height": 1080,
+        "crf": 43
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.977552,
+        "ssim_lower": 0.977552,
+        "ssim_upper": 0.977552,
+        "bytes_mean": 161038,
+        "bytes_lower": 161038,
+        "bytes_upper": 161038,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.940004,
+          "ssim_min": 0.800821,
+          "file_bytes": 49275,
+          "frames": 60,
+          "encode_secs": 3.459,
+          "job_id": "full_1080p_q6_extreme_burst"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.996277,
+          "ssim_min": 0.995908,
+          "file_bytes": 52100,
+          "frames": 270,
+          "encode_secs": 4.446,
+          "job_id": "full_1080p_q6_extreme_head_static"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.954193,
+          "ssim_min": 0.951197,
+          "file_bytes": 59663,
+          "frames": 120,
+          "encode_secs": 4.569,
+          "job_id": "full_1080p_q6_extreme_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "720p_q1_visually_lossless": {
+      "config": {
+        "config_id": "720p_q1_visually_lossless",
+        "res_label": "720p",
+        "q_label": "q1_visually_lossless",
+        "width": 1280,
+        "height": 720,
+        "crf": 18
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.982564,
+        "ssim_lower": 0.982564,
+        "ssim_upper": 0.982564,
+        "bytes_mean": 2418673,
+        "bytes_lower": 2418673,
+        "bytes_upper": 2418673,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.875997,
+          "ssim_min": 0.746167,
+          "file_bytes": 321595,
+          "frames": 60,
+          "encode_secs": 3.714,
+          "job_id": "full_720p_q1_visually_lossless_burst"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998862,
+          "ssim_min": 0.998692,
+          "file_bytes": 311164,
+          "frames": 270,
+          "encode_secs": 5.29,
+          "job_id": "full_720p_q1_visually_lossless_head_static"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.999177,
+          "ssim_min": 0.998699,
+          "file_bytes": 1785914,
+          "frames": 120,
+          "encode_secs": 5.247,
+          "job_id": "full_720p_q1_visually_lossless_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "720p_q2_high": {
+      "config": {
+        "config_id": "720p_q2_high",
+        "res_label": "720p",
+        "q_label": "q2_high",
+        "width": 1280,
+        "height": 720,
+        "crf": 23
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.981838,
+        "ssim_lower": 0.981838,
+        "ssim_upper": 0.981838,
+        "bytes_mean": 1462907,
+        "bytes_lower": 1462907,
+        "bytes_upper": 1462907,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998527,
+          "ssim_min": 0.998385,
+          "file_bytes": 176628,
+          "frames": 270,
+          "encode_secs": 3.801,
+          "job_id": "full_720p_q2_high_head_static"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.874033,
+          "ssim_min": 0.745103,
+          "file_bytes": 149165,
+          "frames": 60,
+          "encode_secs": 2.279,
+          "job_id": "full_720p_q2_high_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998191,
+          "ssim_min": 0.997348,
+          "file_bytes": 1137114,
+          "frames": 120,
+          "encode_secs": 3.196,
+          "job_id": "full_720p_q2_high_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "720p_q3_good": {
+      "config": {
+        "config_id": "720p_q3_good",
+        "res_label": "720p",
+        "q_label": "q3_good",
+        "width": 1280,
+        "height": 720,
+        "crf": 28
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.981056,
+        "ssim_lower": 0.981056,
+        "ssim_upper": 0.981056,
+        "bytes_mean": 862603,
+        "bytes_lower": 862603,
+        "bytes_upper": 862603,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998185,
+          "ssim_min": 0.998103,
+          "file_bytes": 101958,
+          "frames": 270,
+          "encode_secs": 4.094,
+          "job_id": "full_720p_q3_good_head_static"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.873237,
+          "ssim_min": 0.744762,
+          "file_bytes": 89589,
+          "frames": 60,
+          "encode_secs": 2.143,
+          "job_id": "full_720p_q3_good_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.996425,
+          "ssim_min": 0.994596,
+          "file_bytes": 671056,
+          "frames": 120,
+          "encode_secs": 4.002,
+          "job_id": "full_720p_q3_good_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "720p_q4_fair": {
+      "config": {
+        "config_id": "720p_q4_fair",
+        "res_label": "720p",
+        "q_label": "q4_fair",
+        "width": 1280,
+        "height": 720,
+        "crf": 33
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.979633,
+        "ssim_lower": 0.979633,
+        "ssim_upper": 0.979633,
+        "bytes_mean": 501839,
+        "bytes_lower": 501839,
+        "bytes_upper": 501839,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.872135,
+          "ssim_min": 0.743615,
+          "file_bytes": 70465,
+          "frames": 60,
+          "encode_secs": 2.65,
+          "job_id": "full_720p_q4_fair_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.992543,
+          "ssim_min": 0.989612,
+          "file_bytes": 372067,
+          "frames": 120,
+          "encode_secs": 3.166,
+          "job_id": "full_720p_q4_fair_mid_fabric"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.997783,
+          "ssim_min": 0.99769,
+          "file_bytes": 59307,
+          "frames": 270,
+          "encode_secs": 3.166,
+          "job_id": "full_720p_q4_fair_head_static"
+        }
+      },
+      "lock": null
+    },
+    "720p_q5_coarse": {
+      "config": {
+        "config_id": "720p_q5_coarse",
+        "res_label": "720p",
+        "q_label": "q5_coarse",
+        "width": 1280,
+        "height": 720,
+        "crf": 38
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.974198,
+        "ssim_lower": 0.974198,
+        "ssim_upper": 0.974198,
+        "bytes_mean": 210317,
+        "bytes_lower": 210317,
+        "bytes_upper": 210317,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.997325,
+          "ssim_min": 0.997228,
+          "file_bytes": 36369,
+          "frames": 270,
+          "encode_secs": 2.674,
+          "job_id": "full_720p_q5_coarse_head_static"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.869659,
+          "ssim_min": 0.741214,
+          "file_bytes": 59870,
+          "frames": 60,
+          "encode_secs": 1.973,
+          "job_id": "full_720p_q5_coarse_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.974432,
+          "ssim_min": 0.964865,
+          "file_bytes": 114078,
+          "frames": 120,
+          "encode_secs": 2.659,
+          "job_id": "full_720p_q5_coarse_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "720p_q6_extreme": {
+      "config": {
+        "config_id": "720p_q6_extreme",
+        "res_label": "720p",
+        "q_label": "q6_extreme",
+        "width": 1280,
+        "height": 720,
+        "crf": 43
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.96242,
+        "ssim_lower": 0.96242,
+        "ssim_upper": 0.96242,
+        "bytes_mean": 108521,
+        "bytes_lower": 108521,
+        "bytes_upper": 108521,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.866063,
+          "ssim_min": 0.738003,
+          "file_bytes": 46816,
+          "frames": 60,
+          "encode_secs": 1.646,
+          "job_id": "full_720p_q6_extreme_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.934171,
+          "ssim_min": 0.902366,
+          "file_bytes": 34944,
+          "frames": 120,
+          "encode_secs": 3.081,
+          "job_id": "full_720p_q6_extreme_mid_fabric"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.996388,
+          "ssim_min": 0.996107,
+          "file_bytes": 26761,
+          "frames": 270,
+          "encode_secs": 3.343,
+          "job_id": "full_720p_q6_extreme_head_static"
+        }
+      },
+      "lock": null
+    },
+    "480p_q1_visually_lossless": {
+      "config": {
+        "config_id": "480p_q1_visually_lossless",
+        "res_label": "480p",
+        "q_label": "q1_visually_lossless",
+        "width": 854,
+        "height": 480,
+        "crf": 18
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.978965,
+        "ssim_lower": 0.978965,
+        "ssim_upper": 0.978965,
+        "bytes_mean": 1320820,
+        "bytes_lower": 1320820,
+        "bytes_upper": 1320820,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.850864,
+          "ssim_min": 0.727106,
+          "file_bytes": 284636,
+          "frames": 60,
+          "encode_secs": 1.986,
+          "job_id": "full_480p_q1_visually_lossless_burst"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998536,
+          "ssim_min": 0.998321,
+          "file_bytes": 138420,
+          "frames": 270,
+          "encode_secs": 3.228,
+          "job_id": "full_480p_q1_visually_lossless_head_static"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.99898,
+          "ssim_min": 0.998581,
+          "file_bytes": 897764,
+          "frames": 120,
+          "encode_secs": 3.235,
+          "job_id": "full_480p_q1_visually_lossless_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "480p_q2_high": {
+      "config": {
+        "config_id": "480p_q2_high",
+        "res_label": "480p",
+        "q_label": "q2_high",
+        "width": 854,
+        "height": 480,
+        "crf": 23
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.97838,
+        "ssim_lower": 0.97838,
+        "ssim_upper": 0.97838,
+        "bytes_mean": 797228,
+        "bytes_lower": 797228,
+        "bytes_upper": 797228,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998259,
+          "ssim_min": 0.998044,
+          "file_bytes": 84812,
+          "frames": 270,
+          "encode_secs": 2.717,
+          "job_id": "full_480p_q2_high_head_static"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.84961,
+          "ssim_min": 0.72561,
+          "file_bytes": 166333,
+          "frames": 60,
+          "encode_secs": 1.451,
+          "job_id": "full_480p_q2_high_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998039,
+          "ssim_min": 0.997114,
+          "file_bytes": 546083,
+          "frames": 120,
+          "encode_secs": 2.319,
+          "job_id": "full_480p_q2_high_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "480p_q3_good": {
+      "config": {
+        "config_id": "480p_q3_good",
+        "res_label": "480p",
+        "q_label": "q3_good",
+        "width": 854,
+        "height": 480,
+        "crf": 28
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.977568,
+        "ssim_lower": 0.977568,
+        "ssim_upper": 0.977568,
+        "bytes_mean": 459406,
+        "bytes_lower": 459406,
+        "bytes_upper": 459406,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.99792,
+          "ssim_min": 0.997804,
+          "file_bytes": 58377,
+          "frames": 270,
+          "encode_secs": 2.542,
+          "job_id": "full_480p_q3_good_head_static"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.995924,
+          "ssim_min": 0.994062,
+          "file_bytes": 310365,
+          "frames": 120,
+          "encode_secs": 2.633,
+          "job_id": "full_480p_q3_good_mid_fabric"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.849274,
+          "ssim_min": 0.724719,
+          "file_bytes": 90664,
+          "frames": 60,
+          "encode_secs": 1.187,
+          "job_id": "full_480p_q3_good_burst"
+        }
+      },
+      "lock": null
+    },
+    "480p_q4_fair": {
+      "config": {
+        "config_id": "480p_q4_fair",
+        "res_label": "480p",
+        "q_label": "q4_fair",
+        "width": 854,
+        "height": 480,
+        "crf": 33
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.973274,
+        "ssim_lower": 0.973274,
+        "ssim_upper": 0.973274,
+        "bytes_mean": 254435,
+        "bytes_lower": 254435,
+        "bytes_upper": 254435,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.847379,
+          "ssim_min": 0.724209,
+          "file_bytes": 56602,
+          "frames": 60,
+          "encode_secs": 1.377,
+          "job_id": "full_480p_q4_fair_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.981419,
+          "ssim_min": 0.978887,
+          "file_bytes": 162786,
+          "frames": 120,
+          "encode_secs": 2.441,
+          "job_id": "full_480p_q4_fair_mid_fabric"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.997631,
+          "ssim_min": 0.99758,
+          "file_bytes": 35047,
+          "frames": 270,
+          "encode_secs": 2.424,
+          "job_id": "full_480p_q4_fair_head_static"
+        }
+      },
+      "lock": null
+    },
+    "480p_q5_coarse": {
+      "config": {
+        "config_id": "480p_q5_coarse",
+        "res_label": "480p",
+        "q_label": "q5_coarse",
+        "width": 854,
+        "height": 480,
+        "crf": 38
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.967243,
+        "ssim_lower": 0.967243,
+        "ssim_upper": 0.967243,
+        "bytes_mean": 96940,
+        "bytes_lower": 96940,
+        "bytes_upper": 96940,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.997267,
+          "ssim_min": 0.997139,
+          "file_bytes": 23981,
+          "frames": 270,
+          "encode_secs": 2.143,
+          "job_id": "full_480p_q5_coarse_head_static"
+        },
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.84321,
+          "ssim_min": 0.715052,
+          "file_bytes": 43199,
+          "frames": 60,
+          "encode_secs": 1.183,
+          "job_id": "full_480p_q5_coarse_burst"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.961706,
+          "ssim_min": 0.959097,
+          "file_bytes": 29760,
+          "frames": 120,
+          "encode_secs": 1.686,
+          "job_id": "full_480p_q5_coarse_mid_fabric"
+        }
+      },
+      "lock": null
+    },
+    "480p_q6_extreme": {
+      "config": {
+        "config_id": "480p_q6_extreme",
+        "res_label": "480p",
+        "q_label": "q6_extreme",
+        "width": 854,
+        "height": 480,
+        "crf": 43
+      },
+      "alive": true,
+      "shots": {},
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.935963,
+        "ssim_lower": 0.935963,
+        "ssim_upper": 0.935963,
+        "bytes_mean": 58443,
+        "bytes_lower": 58443,
+        "bytes_upper": 58443,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.834351,
+          "ssim_min": 0.699379,
+          "file_bytes": 32595,
+          "frames": 60,
+          "encode_secs": 0.988,
+          "job_id": "full_480p_q6_extreme_burst"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.996651,
+          "ssim_min": 0.996373,
+          "file_bytes": 16668,
+          "frames": 270,
+          "encode_secs": 2.165,
+          "job_id": "full_480p_q6_extreme_head_static"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.850222,
+          "ssim_min": 0.841826,
+          "file_bytes": 9180,
+          "frames": 120,
+          "encode_secs": 2.262,
+          "job_id": "full_480p_q6_extreme_mid_fabric"
+        }
+      },
+      "lock": null
+    }
+  },
+  "ledger": [],
+  "append_log": [],
+  "lock_log": [],
+  "audit": {
+    "exhaustive_frontier": [
+      {
+        "config_id": "1080p_q4_fair",
+        "file_bytes": 892384,
+        "ssim_avg": 0.988754
+      },
+      {
+        "config_id": "1080p_q3_good",
+        "file_bytes": 1578490,
+        "ssim_avg": 0.990294
+      },
+      {
+        "config_id": "1080p_q2_high",
+        "file_bytes": 2607093,
+        "ssim_avg": 0.991184
+      },
+      {
+        "config_id": "1080p_q1_visually_lossless",
+        "file_bytes": 4055269,
+        "ssim_avg": 0.991674
+      }
+    ],
+    "missed_frontier_configs": [],
+    "missed_count": 0,
+    "rescued_frontier_configs": [],
+    "abandoned_frontier_count": 0,
+    "survivor_count": 18,
+    "eliminated_count": 0,
+    "exhaustive_cost_frames": 8100,
+    "search_window_frames": 0,
+    "lock_full_frames": 0,
+    "lock_newly_encoded_frames": 0,
+    "lock_reused_cached_frames": 0,
+    "total_full_frames_in_store": 8100,
+    "really_encoded_frames": 0,
+    "saved_frames_vs_exhaustive": 8100,
+    "saved_pct": 100.0,
+    "locked_configs": [],
+    "counterexamples": [],
+    "note": "漏解 = 完整编码前沿上却被早停淘汰的配置；节省帧数只统计真实跑过的编码，预测值不计入。"
+  },
+  "role": "exhaustive_reference"
+}

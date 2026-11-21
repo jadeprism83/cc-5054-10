@@ -29,6 +29,9 @@ __pycache__/
 /encoding_workbench/out/results/workbench.sqlite3-wal
 /encoding_workbench/out/results/workbench.sqlite3-shm
 /encoding_workbench/out/results/workbench.sqlite3-journal
+/encoding_workbench/out/search/search.sqlite3-wal
+/encoding_workbench/out/search/search.sqlite3-shm
+/encoding_workbench/out/search/search.sqlite3-journal
 !/encoding_workbench/logs/encode_seg[123]_*_fail_odd_dimensions.log
 !/encoding_workbench/logs/encode_seg[123]_*_fail_bad_preset.log
 !/encoding_workbench/logs/encode_seg[123]_*_fail_bad_crf.log

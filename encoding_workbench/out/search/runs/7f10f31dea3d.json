@@ -1,0 +1,3327 @@
+{
+  "run_id": "7f10f31dea3d",
+  "policy": "stratified",
+  "order_key": "burst_mid",
+  "order": [
+    "head_static",
+    "burst",
+    "mid_fabric"
+  ],
+  "floors": {
+    "head_static": 0.985,
+    "mid_fabric": 0.985,
+    "burst": 0.93
+  },
+  "budget_frames": 5580,
+  "frames_spent": 5550,
+  "created_at": "2026-11-21 07:09:48",
+  "candidates": {
+    "1080p_q1_visually_lossless": {
+      "config": {
+        "config_id": "1080p_q1_visually_lossless",
+        "res_label": "1080p",
+        "q_label": "q1_visually_lossless",
+        "width": 1920,
+        "height": 1080,
+        "crf": 18
+      },
+      "alive": true,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9991795,
+            "lower": 0.9991706800000001,
+            "upper": 0.9991883199999999,
+            "sigma": 6.363961030626414e-06,
+            "half": 8.819999999927218e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 233124.5,
+            "lower": 230873.44,
+            "upper": 235375.56
+          },
+          "window_means": {
+            "0": 0.999175,
+            "1": 0.999184
+          },
+          "window_bytes": {
+            "0": 234273,
+            "1": 231976
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9426665000000001,
+            "lower": 0.9424028800000002,
+            "upper": 0.94293012,
+            "sigma": 0.00019021172413915562,
+            "half": 0.0002636199999999644
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 42045.5,
+            "lower": 22666.000000000004,
+            "upper": 61425.0
+          },
+          "window_means": {
+            "0": 0.942532,
+            "1": 0.942801
+          },
+          "window_bytes": {
+            "0": 32158,
+            "1": 51933
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9991825,
+            "lower": 0.99917956,
+            "upper": 0.99918544,
+            "sigma": 2.1213203435421376e-06,
+            "half": 2.939999999975739e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 964102.0,
+            "lower": 960146.72,
+            "upper": 968057.28
+          },
+          "window_means": {
+            "0": 0.999184,
+            "1": 0.999181
+          },
+          "window_bytes": {
+            "0": 962084,
+            "1": 966120
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9916452333333334,
+        "ssim_lower": 0.9916096792118596,
+        "ssim_upper": 0.9916807874548073,
+        "bytes_mean": 1239272,
+        "bytes_lower": 1213686,
+        "bytes_upper": 1264858,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "1080p_q2_high": {
+      "config": {
+        "config_id": "1080p_q2_high",
+        "res_label": "1080p",
+        "q_label": "q2_high",
+        "width": 1920,
+        "height": 1080,
+        "crf": 23
+      },
+      "alive": true,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.998813,
+            "lower": 0.9987914399999999,
+            "upper": 0.99883456,
+            "sigma": 1.5556349186158858e-05,
+            "half": 2.1560000000075962e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 134967.5,
+            "lower": 130977.92,
+            "upper": 138957.08
+          },
+          "window_means": {
+            "0": 0.998802,
+            "1": 0.998824
+          },
+          "window_bytes": {
+            "0": 132932,
+            "1": 137003
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9423980000000001,
+            "lower": 0.9416688800000002,
+            "upper": 0.94312712,
+            "sigma": 0.0005260874452027679,
+            "half": 0.0007291199999999675
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 39818.5,
+            "lower": 19141.480000000003,
+            "upper": 60495.52
+          },
+          "window_means": {
+            "0": 0.942026,
+            "1": 0.94277
+          },
+          "window_bytes": {
+            "0": 29269,
+            "1": 50368
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.998399,
+            "lower": 0.9983970400000001,
+            "upper": 0.99840096,
+            "sigma": 1.4142135623352571e-06,
+            "half": 1.9599999999475592e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 618452.5,
+            "lower": 617397.04,
+            "upper": 619507.96
+          },
+          "window_means": {
+            "0": 0.9984,
+            "1": 0.998398
+          },
+          "window_bytes": {
+            "0": 617914,
+            "1": 618991
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9911806,
+        "ssim_lower": 0.991082525722371,
+        "ssim_upper": 0.991278674277629,
+        "bytes_mean": 793238,
+        "bytes_lower": 767516,
+        "bytes_upper": 818961,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "1080p_q3_good": {
+      "config": {
+        "config_id": "1080p_q3_good",
+        "res_label": "1080p",
+        "q_label": "q3_good",
+        "width": 1920,
+        "height": 1080,
+        "crf": 28
+      },
+      "alive": true,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1,
+            2
+          ],
+          "frames_seen": 270,
+          "ssim": {
+            "n": 3,
+            "mean": 0.9984583333333333,
+            "lower": 0.9984169664458776,
+            "upper": 0.998499700220789,
+            "sigma": 3.655589327772217e-05,
+            "half": 4.136688745574584e-05
+          },
+          "bytes": {
+            "n": 3,
+            "mean": 74037.0,
+            "lower": 72558.54015651422,
+            "upper": 75515.45984348578
+          },
+          "window_means": {
+            "0": 0.998426,
+            "1": 0.998451,
+            "2": 0.998498
+          },
+          "window_bytes": {
+            "0": 72932,
+            "1": 75479,
+            "2": 73700
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9423185000000001,
+            "lower": 0.9417432400000001,
+            "upper": 0.94289376,
+            "sigma": 0.00041507168055650637,
+            "half": 0.0005752600000000041
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 42153.5,
+            "lower": 16676.440000000002,
+            "upper": 67630.56
+          },
+          "window_means": {
+            "0": 0.942025,
+            "1": 0.942612
+          },
+          "window_bytes": {
+            "0": 29155,
+            "1": 55152
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9957944999999999,
+            "lower": 0.99578764,
+            "upper": 0.9958013599999999,
+            "sigma": 4.949747468291157e-06,
+            "half": 6.85999999997966e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 382528.0,
+            "lower": 380824.76,
+            "upper": 384231.24
+          },
+          "window_means": {
+            "0": 0.995798,
+            "1": 0.995791
+          },
+          "window_bytes": {
+            "0": 383397,
+            "1": 381659
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9902626666666666,
+        "ssim_lower": 0.9901820287105196,
+        "ssim_upper": 0.9903433046228136,
+        "bytes_mean": 498718,
+        "bytes_lower": 470060,
+        "bytes_upper": 527377,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "1080p_q4_fair": {
+      "config": {
+        "config_id": "1080p_q4_fair",
+        "res_label": "1080p",
+        "q_label": "q4_fair",
+        "width": 1920,
+        "height": 1080,
+        "crf": 33
+      },
+      "alive": true,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.997957,
+            "lower": 0.99794524,
+            "upper": 0.99796876,
+            "sigma": 8.485281374247057e-06,
+            "half": 1.1760000000011761e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 39685.0,
+            "lower": 38073.88,
+            "upper": 41296.12
+          },
+          "window_means": {
+            "0": 0.997963,
+            "1": 0.997951
+          },
+          "window_bytes": {
+            "0": 38863,
+            "1": 40507
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9421435,
+            "lower": 0.9419896400000001,
+            "upper": 0.94229736,
+            "sigma": 0.0001110157646462616,
+            "half": 0.00015385999999996346
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 36705.0,
+            "lower": 10047.04,
+            "upper": 63362.96
+          },
+          "window_means": {
+            "0": 0.942065,
+            "1": 0.942222
+          },
+          "window_bytes": {
+            "0": 23104,
+            "1": 50306
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames_seen": 120,
+          "ssim": {
+            "n": 4,
+            "mean": 0.9907652499999999,
+            "lower": 0.990737239880995,
+            "upper": 0.9907932601190048,
+            "sigma": 2.8581754086585028e-05,
+            "half": 2.8010119004853326e-05
+          },
+          "bytes": {
+            "n": 4,
+            "mean": 222652.5,
+            "lower": 222458.38824559032,
+            "upper": 222846.61175440968
+          },
+          "window_means": {
+            "0": 0.99074,
+            "1": 0.99079,
+            "2": 0.990741,
+            "3": 0.99079
+          },
+          "window_bytes": {
+            "0": 222819,
+            "1": 222481,
+            "2": 222829,
+            "3": 222481
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9885974000000002,
+        "ssim_lower": 0.9885744559354308,
+        "ssim_upper": 0.9886203440645696,
+        "bytes_mean": 299042,
+        "bytes_lower": 270579,
+        "bytes_upper": 327506,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "1080p_q5_coarse": {
+      "config": {
+        "config_id": "1080p_q5_coarse",
+        "res_label": "1080p",
+        "q_label": "q5_coarse",
+        "width": 1920,
+        "height": 1080,
+        "crf": 38
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9973004999999999,
+            "lower": 0.9972916799999999,
+            "upper": 0.9973093199999999,
+            "sigma": 6.3639610307049185e-06,
+            "half": 8.820000000036021e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 23880.5,
+            "lower": 23307.2,
+            "upper": 24453.8
+          },
+          "window_means": {
+            "0": 0.997296,
+            "1": 0.997305
+          },
+          "window_bytes": {
+            "0": 23588,
+            "1": 24173
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9404755,
+            "lower": 0.9395886000000001,
+            "upper": 0.9413623999999999,
+            "sigma": 0.0006399316369737786,
+            "half": 0.0008868999999999349
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 33064.0,
+            "lower": 16270.720000000001,
+            "upper": 49857.28
+          },
+          "window_means": {
+            "0": 0.940928,
+            "1": 0.940023
+          },
+          "window_bytes": {
+            "0": 24496,
+            "1": 41632
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9762345,
+            "lower": 0.97576116,
+            "upper": 0.97670784,
+            "sigma": 0.0003415325753131104,
+            "half": 0.00047334000000001094
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 104994.0,
+            "lower": 104731.36,
+            "upper": 105256.64
+          },
+          "window_means": {
+            "0": 0.976476,
+            "1": 0.975993
+          },
+          "window_bytes": {
+            "0": 105128,
+            "1": 104860
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9841062333333334,
+        "ssim_lower": 0.9839331889624788,
+        "ssim_upper": 0.9842792777041879,
+        "bytes_mean": 161938,
+        "bytes_lower": 144309,
+        "bytes_upper": 179568,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "a7745fb4d9",
+          "config_id": "1080p_q5_coarse",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "mid_fabric",
+          "hypothesis": "R1:mid_fabric:floor<0.985",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "mid_fabric",
+            "floor": 0.985,
+            "ssim_upper": 0.976708,
+            "ssim_mean": 0.976235,
+            "ssim_lower": 0.975761,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "mid_fabric",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.976476,
+              "1": 0.975993
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "1080p_q6_extreme": {
+      "config": {
+        "config_id": "1080p_q6_extreme",
+        "res_label": "1080p",
+        "q_label": "q6_extreme",
+        "width": 1920,
+        "height": 1080,
+        "crf": 43
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9960100000000001,
+            "lower": 0.99576304,
+            "upper": 0.9962569600000001,
+            "sigma": 0.00017819090885903117,
+            "half": 0.00024696000000002933
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 17061.0,
+            "lower": 15018.68,
+            "upper": 19103.32
+          },
+          "window_means": {
+            "0": 0.996136,
+            "1": 0.995884
+          },
+          "window_bytes": {
+            "0": 16019,
+            "1": 18103
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9388745000000001,
+            "lower": 0.9346908800000001,
+            "upper": 0.94305812,
+            "sigma": 0.003018638848885348,
+            "half": 0.004183619999999967
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 21532.5,
+            "lower": 7758.600000000002,
+            "upper": 35306.399999999994
+          },
+          "window_means": {
+            "0": 0.941009,
+            "1": 0.93674
+          },
+          "window_bytes": {
+            "0": 14505,
+            "1": 28560
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9528300000000001,
+            "lower": 0.9527359200000001,
+            "upper": 0.9529240800000001,
+            "sigma": 6.788225099389795e-05,
+            "half": 9.407999999998528e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 50890.0,
+            "lower": 50858.64,
+            "upper": 50921.36
+          },
+          "window_means": {
+            "0": 0.952878,
+            "1": 0.952782
+          },
+          "window_bytes": {
+            "0": 50874,
+            "1": 50906
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9768772666666667,
+        "ssim_lower": 0.9762995606648146,
+        "ssim_upper": 0.9774549726685189,
+        "bytes_mean": 89484,
+        "bytes_lower": 73636,
+        "bytes_upper": 105331,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "df84283561",
+          "config_id": "1080p_q6_extreme",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "mid_fabric",
+          "hypothesis": "R1:mid_fabric:floor<0.985",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "mid_fabric",
+            "floor": 0.985,
+            "ssim_upper": 0.952924,
+            "ssim_mean": 0.95283,
+            "ssim_lower": 0.952736,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "mid_fabric",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.952878,
+              "1": 0.952782
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "720p_q1_visually_lossless": {
+      "config": {
+        "config_id": "720p_q1_visually_lossless",
+        "res_label": "720p",
+        "q_label": "q1_visually_lossless",
+        "width": 1280,
+        "height": 720,
+        "crf": 18
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.998834,
+            "lower": 0.9988241999999999,
+            "upper": 0.9988438000000001,
+            "sigma": 7.0710678119118e-06,
+            "half": 9.800000000064201e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 106077.5,
+            "lower": 103875.44,
+            "upper": 108279.56
+          },
+          "window_means": {
+            "0": 0.998829,
+            "1": 0.998839
+          },
+          "window_bytes": {
+            "0": 104954,
+            "1": 107201
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.8759855000000001,
+            "lower": 0.87564348,
+            "upper": 0.8763275200000001,
+            "sigma": 0.000246780266634136,
+            "half": 0.0003420200000000428
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 165283.0,
+            "lower": 155553.56,
+            "upper": 175012.44
+          },
+          "window_means": {
+            "0": 0.875811,
+            "1": 0.87616
+          },
+          "window_bytes": {
+            "0": 160319,
+            "1": 170247
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.998953,
+            "lower": 0.998953,
+            "upper": 0.998953,
+            "sigma": 0.0,
+            "half": 0.0
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 512551.0,
+            "lower": 510514.56,
+            "upper": 514587.44
+          },
+          "window_means": {
+            "0": 0.998953,
+            "1": 0.998953
+          },
+          "window_bytes": {
+            "0": 511512,
+            "1": 513590
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "measured_full",
+        "ssim_mean": 0.982564,
+        "ssim_lower": 0.982564,
+        "ssim_upper": 0.982564,
+        "bytes_mean": 2418673,
+        "bytes_lower": 2418673,
+        "bytes_upper": 2418673,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "ae51048af8",
+          "config_id": "720p_q1_visually_lossless",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "burst",
+          "hypothesis": "R1:burst:floor<0.93",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "burst",
+            "floor": 0.93,
+            "ssim_upper": 0.876328,
+            "ssim_mean": 0.875986,
+            "ssim_lower": 0.875643,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "burst",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.875811,
+              "1": 0.87616
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": {
+        "burst": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.875997,
+          "ssim_min": 0.746167,
+          "file_bytes": 321595,
+          "frames": 60,
+          "encode_secs": 3.714,
+          "job_id": "full_720p_q1_visually_lossless_burst"
+        },
+        "head_static": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.998862,
+          "ssim_min": 0.998692,
+          "file_bytes": 311164,
+          "frames": 270,
+          "encode_secs": 5.29,
+          "job_id": "full_720p_q1_visually_lossless_head_static"
+        },
+        "mid_fabric": {
+          "provenance": "measured_full",
+          "ssim_avg": 0.999177,
+          "ssim_min": 0.998699,
+          "file_bytes": 1785914,
+          "frames": 120,
+          "encode_secs": 5.247,
+          "job_id": "full_720p_q1_visually_lossless_mid_fabric"
+        }
+      },
+      "lock": {
+        "locked_at": "2026-11-21 07:09:48",
+        "reason": "面板锁定被排除配置，补做整片完整编码",
+        "frames": 450,
+        "newly_encoded_frames": 0,
+        "reused_cached_frames": 450
+      }
+    },
+    "720p_q2_high": {
+      "config": {
+        "config_id": "720p_q2_high",
+        "res_label": "720p",
+        "q_label": "q2_high",
+        "width": 1280,
+        "height": 720,
+        "crf": 23
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.998503,
+            "lower": 0.99848928,
+            "upper": 0.99851672,
+            "sigma": 9.899494936582313e-06,
+            "half": 1.371999999995932e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 60893.5,
+            "lower": 60288.84,
+            "upper": 61498.16
+          },
+          "window_means": {
+            "0": 0.998496,
+            "1": 0.99851
+          },
+          "window_bytes": {
+            "0": 60585,
+            "1": 61202
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.8740085,
+            "lower": 0.87349008,
+            "upper": 0.87452692,
+            "sigma": 0.00037405948724768484,
+            "half": 0.0005184200000000016
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 78204.0,
+            "lower": 74891.6,
+            "upper": 81516.4
+          },
+          "window_means": {
+            "0": 0.873744,
+            "1": 0.874273
+          },
+          "window_bytes": {
+            "0": 76514,
+            "1": 79894
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9979955,
+            "lower": 0.99798472,
+            "upper": 0.99800628,
+            "sigma": 7.778174593040176e-06,
+            "half": 1.077999999998358e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 312000.5,
+            "lower": 308653.8,
+            "upper": 315347.2
+          },
+          "window_means": {
+            "0": 0.99799,
+            "1": 0.998001
+          },
+          "window_bytes": {
+            "0": 310293,
+            "1": 313708
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9817684000000001,
+        "ssim_lower": 0.9816987295429932,
+        "ssim_upper": 0.981838070457007,
+        "bytes_mean": 451098,
+        "bytes_lower": 443834,
+        "bytes_upper": 458362,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "20a5074fbb",
+          "config_id": "720p_q2_high",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "burst",
+          "hypothesis": "R1:burst:floor<0.93",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "burst",
+            "floor": 0.93,
+            "ssim_upper": 0.874527,
+            "ssim_mean": 0.874008,
+            "ssim_lower": 0.87349,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "burst",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.873744,
+              "1": 0.874273
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "720p_q3_good": {
+      "config": {
+        "config_id": "720p_q3_good",
+        "res_label": "720p",
+        "q_label": "q3_good",
+        "width": 1280,
+        "height": 720,
+        "crf": 28
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9981755,
+            "lower": 0.9981686399999999,
+            "upper": 0.99818236,
+            "sigma": 4.949747468369661e-06,
+            "half": 6.860000000088461e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 36316.5,
+            "lower": 34639.72,
+            "upper": 37993.28
+          },
+          "window_means": {
+            "0": 0.998172,
+            "1": 0.998179
+          },
+          "window_bytes": {
+            "0": 35461,
+            "1": 37172
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.8730865000000001,
+            "lower": 0.8726327600000001,
+            "upper": 0.8735402400000001,
+            "sigma": 0.00032739043968936526,
+            "half": 0.00045373999999999133
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 48517.5,
+            "lower": 43957.56,
+            "upper": 53077.44
+          },
+          "window_means": {
+            "0": 0.872855,
+            "1": 0.873318
+          },
+          "window_bytes": {
+            "0": 46191,
+            "1": 50844
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.995972,
+            "lower": 0.99595044,
+            "upper": 0.9959935599999999,
+            "sigma": 1.555634918608035e-05,
+            "half": 2.155999999996716e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 197327.0,
+            "lower": 196625.32,
+            "upper": 198028.68
+          },
+          "window_means": {
+            "0": 0.995983,
+            "1": 0.995961
+          },
+          "window_bytes": {
+            "0": 196969,
+            "1": 197685
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9809093666666667,
+        "ssim_lower": 0.9808484561999289,
+        "ssim_upper": 0.9809702771334046,
+        "bytes_mean": 282161,
+        "bytes_lower": 275223,
+        "bytes_upper": 289099,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "e402547d30",
+          "config_id": "720p_q3_good",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "burst",
+          "hypothesis": "R1:burst:floor<0.93",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "burst",
+            "floor": 0.93,
+            "ssim_upper": 0.87354,
+            "ssim_mean": 0.873087,
+            "ssim_lower": 0.872633,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "burst",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.872855,
+              "1": 0.873318
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "720p_q4_fair": {
+      "config": {
+        "config_id": "720p_q4_fair",
+        "res_label": "720p",
+        "q_label": "q4_fair",
+        "width": 1280,
+        "height": 720,
+        "crf": 33
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.99779,
+            "lower": 0.9977449199999999,
+            "upper": 0.99783508,
+            "sigma": 3.2526911934574465e-05,
+            "half": 4.507999999999068e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 21271.0,
+            "lower": 20530.12,
+            "upper": 22011.88
+          },
+          "window_means": {
+            "0": 0.997813,
+            "1": 0.997767
+          },
+          "window_bytes": {
+            "0": 20893,
+            "1": 21649
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.871788,
+            "lower": 0.8711412000000001,
+            "upper": 0.8724348,
+            "sigma": 0.00046669047558311707,
+            "half": 0.000646799999999994
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 39675.5,
+            "lower": 35593.8,
+            "upper": 43757.2
+          },
+          "window_means": {
+            "0": 0.871458,
+            "1": 0.872118
+          },
+          "window_bytes": {
+            "0": 37593,
+            "1": 41758
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9912785,
+            "lower": 0.9911716799999999,
+            "upper": 0.99138532,
+            "sigma": 7.707463914935188e-05,
+            "half": 0.00010682000000002522
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 120392.0,
+            "lower": 119076.84,
+            "upper": 121707.16
+          },
+          "window_means": {
+            "0": 0.991333,
+            "1": 0.991224
+          },
+          "window_bytes": {
+            "0": 119721,
+            "1": 121063
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9792533333333333,
+        "ssim_lower": 0.9791585686451889,
+        "ssim_upper": 0.9793480980214777,
+        "bytes_mean": 181338,
+        "bytes_lower": 175201,
+        "bytes_upper": 187476,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "e68473000d",
+          "config_id": "720p_q4_fair",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "burst",
+          "hypothesis": "R1:burst:floor<0.93",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "burst",
+            "floor": 0.93,
+            "ssim_upper": 0.872435,
+            "ssim_mean": 0.871788,
+            "ssim_lower": 0.871141,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "burst",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.871458,
+              "1": 0.872118
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "720p_q5_coarse": {
+      "config": {
+        "config_id": "720p_q5_coarse",
+        "res_label": "720p",
+        "q_label": "q5_coarse",
+        "width": 1280,
+        "height": 720,
+        "crf": 38
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.997335,
+            "lower": 0.9972762000000001,
+            "upper": 0.9973937999999999,
+            "sigma": 4.242640687115678e-05,
+            "half": 5.8799999999950004e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 12836.0,
+            "lower": 12798.76,
+            "upper": 12873.24
+          },
+          "window_means": {
+            "0": 0.997365,
+            "1": 0.997305
+          },
+          "window_bytes": {
+            "0": 12817,
+            "1": 12855
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.8688345,
+            "lower": 0.8677457199999999,
+            "upper": 0.86992328,
+            "sigma": 0.0007855956338982353,
+            "half": 0.0010887799999999735
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 33777.5,
+            "lower": 33137.56,
+            "upper": 34417.44
+          },
+          "window_means": {
+            "0": 0.868279,
+            "1": 0.86939
+          },
+          "window_bytes": {
+            "0": 33451,
+            "1": 34104
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.974378,
+            "lower": 0.9735058,
+            "upper": 0.9752502,
+            "sigma": 0.0006293250352559893,
+            "half": 0.0008721999999999473
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 60310.0,
+            "lower": 59861.16,
+            "upper": 60758.84
+          },
+          "window_means": {
+            "0": 0.974823,
+            "1": 0.973933
+          },
+          "window_bytes": {
+            "0": 60539,
+            "1": 60081
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9740797333333333,
+        "ssim_lower": 0.9738032993296877,
+        "ssim_upper": 0.9743561673369789,
+        "bytes_mean": 106924,
+        "bytes_lower": 105797,
+        "bytes_upper": 108050,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "7ff37c0a51",
+          "config_id": "720p_q5_coarse",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "mid_fabric",
+          "hypothesis": "R1:mid_fabric:floor<0.985",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "mid_fabric",
+            "floor": 0.985,
+            "ssim_upper": 0.97525,
+            "ssim_mean": 0.974378,
+            "ssim_lower": 0.973506,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "mid_fabric",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.974823,
+              "1": 0.973933
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "720p_q6_extreme": {
+      "config": {
+        "config_id": "720p_q6_extreme",
+        "res_label": "720p",
+        "q_label": "q6_extreme",
+        "width": 1280,
+        "height": 720,
+        "crf": 43
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9961169999999999,
+            "lower": 0.9958465199999998,
+            "upper": 0.99638748,
+            "sigma": 0.00019516147160752526,
+            "half": 0.0002704800000000528
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 9999.5,
+            "lower": 9426.2,
+            "upper": 10572.8
+          },
+          "window_means": {
+            "0": 0.996255,
+            "1": 0.995979
+          },
+          "window_bytes": {
+            "0": 9707,
+            "1": 10292
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.863678,
+            "lower": 0.86199632,
+            "upper": 0.8653596799999999,
+            "sigma": 0.001213395236516073,
+            "half": 0.0016816799999999409
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 26789.0,
+            "lower": 24952.48,
+            "upper": 28625.52
+          },
+          "window_means": {
+            "0": 0.864536,
+            "1": 0.86282
+          },
+          "window_bytes": {
+            "0": 27726,
+            "1": 25852
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.912898,
+            "lower": 0.89574996,
+            "upper": 0.93004604,
+            "sigma": 0.012372954457202219,
+            "half": 0.017148040000000014
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 24427.5,
+            "lower": 23895.36,
+            "upper": 24959.64
+          },
+          "window_means": {
+            "0": 0.904149,
+            "1": 0.921647
+          },
+          "window_bytes": {
+            "0": 24156,
+            "1": 24699
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9562667333333331,
+        "ssim_lower": 0.95168555322442,
+        "ssim_upper": 0.9608479134422462,
+        "bytes_mean": 61216,
+        "bytes_lower": 58274,
+        "bytes_upper": 64158,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "329d5e761c",
+          "config_id": "720p_q6_extreme",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "mid_fabric",
+          "hypothesis": "R1:mid_fabric:floor<0.985",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "mid_fabric",
+            "floor": 0.985,
+            "ssim_upper": 0.930046,
+            "ssim_mean": 0.912898,
+            "ssim_lower": 0.89575,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "mid_fabric",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.904149,
+              "1": 0.921647
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "480p_q1_visually_lossless": {
+      "config": {
+        "config_id": "480p_q1_visually_lossless",
+        "res_label": "480p",
+        "q_label": "q1_visually_lossless",
+        "width": 854,
+        "height": 480,
+        "crf": 18
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9985215000000001,
+            "lower": 0.9985185599999999,
+            "upper": 0.9985244400000002,
+            "sigma": 2.1213203436206423e-06,
+            "half": 2.9400000000845413e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 47101.5,
+            "lower": 45822.6,
+            "upper": 48380.4
+          },
+          "window_means": {
+            "0": 0.99852,
+            "1": 0.998523
+          },
+          "window_bytes": {
+            "0": 46449,
+            "1": 47754
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.8509225,
+            "lower": 0.8506471200000001,
+            "upper": 0.85119788,
+            "sigma": 0.00019869700551340268,
+            "half": 0.0002753799999999762
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 146364.0,
+            "lower": 139894.04,
+            "upper": 152833.96
+          },
+          "window_means": {
+            "0": 0.850782,
+            "1": 0.851063
+          },
+          "window_bytes": {
+            "0": 143063,
+            "1": 149665
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9989254999999999,
+            "lower": 0.99891864,
+            "upper": 0.9989323599999999,
+            "sigma": 4.949747468291157e-06,
+            "half": 6.85999999997966e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 270864.0,
+            "lower": 269625.28,
+            "upper": 272102.72
+          },
+          "window_means": {
+            "0": 0.998922,
+            "1": 0.998929
+          },
+          "window_bytes": {
+            "0": 270232,
+            "1": 271496
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9789493666666669,
+        "ssim_lower": 0.978912561494156,
+        "ssim_upper": 0.9789861718391778,
+        "bytes_mean": 464330,
+        "bytes_lower": 455342,
+        "bytes_upper": 473317,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "d7acd9ba6a",
+          "config_id": "480p_q1_visually_lossless",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "burst",
+          "hypothesis": "R1:burst:floor<0.93",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "burst",
+            "floor": 0.93,
+            "ssim_upper": 0.851198,
+            "ssim_mean": 0.850923,
+            "ssim_lower": 0.850647,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "burst",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.850782,
+              "1": 0.851063
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "480p_q2_high": {
+      "config": {
+        "config_id": "480p_q2_high",
+        "res_label": "480p",
+        "q_label": "q2_high",
+        "width": 854,
+        "height": 480,
+        "crf": 23
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9982355,
+            "lower": 0.99821884,
+            "upper": 0.99825216,
+            "sigma": 1.2020815280202956e-05,
+            "half": 1.6660000000043862e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 30474.5,
+            "lower": 29181.88,
+            "upper": 31767.12
+          },
+          "window_means": {
+            "0": 0.998227,
+            "1": 0.998244
+          },
+          "window_bytes": {
+            "0": 29815,
+            "1": 31134
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.849655,
+            "lower": 0.8491924400000002,
+            "upper": 0.8501175599999999,
+            "sigma": 0.0003337544007199917,
+            "half": 0.00046255999999991857
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 87177.5,
+            "lower": 82390.2,
+            "upper": 91964.8
+          },
+          "window_means": {
+            "0": 0.849419,
+            "1": 0.849891
+          },
+          "window_bytes": {
+            "0": 84735,
+            "1": 89620
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9979565,
+            "lower": 0.99794376,
+            "upper": 0.9979692400000001,
+            "sigma": 9.192388155453937e-06,
+            "half": 1.274000000003994e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 170206.0,
+            "lower": 169888.48,
+            "upper": 170523.52
+          },
+          "window_means": {
+            "0": 0.997963,
+            "1": 0.99795
+          },
+          "window_bytes": {
+            "0": 170368,
+            "1": 170044
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9783503666666667,
+        "ssim_lower": 0.9782877948966884,
+        "ssim_upper": 0.9784129384366451,
+        "bytes_mean": 287858,
+        "bytes_lower": 281461,
+        "bytes_upper": 294255,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "ca2656482f",
+          "config_id": "480p_q2_high",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "burst",
+          "hypothesis": "R1:burst:floor<0.93",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "burst",
+            "floor": 0.93,
+            "ssim_upper": 0.850118,
+            "ssim_mean": 0.849655,
+            "ssim_lower": 0.849192,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "burst",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.849419,
+              "1": 0.849891
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "480p_q3_good": {
+      "config": {
+        "config_id": "480p_q3_good",
+        "res_label": "480p",
+        "q_label": "q3_good",
+        "width": 854,
+        "height": 480,
+        "crf": 28
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9979025,
+            "lower": 0.99789956,
+            "upper": 0.99790544,
+            "sigma": 2.1213203435421376e-06,
+            "half": 2.939999999975739e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 21084.0,
+            "lower": 20629.28,
+            "upper": 21538.72
+          },
+          "window_means": {
+            "0": 0.997904,
+            "1": 0.997901
+          },
+          "window_bytes": {
+            "0": 20852,
+            "1": 21316
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.8490390000000001,
+            "lower": 0.84874696,
+            "upper": 0.8493310400000001,
+            "sigma": 0.00021071782079360566,
+            "half": 0.00029204000000002003
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 49580.5,
+            "lower": 46192.64,
+            "upper": 52968.36
+          },
+          "window_means": {
+            "0": 0.84889,
+            "1": 0.849188
+          },
+          "window_bytes": {
+            "0": 47852,
+            "1": 51309
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9956885,
+            "lower": 0.99567772,
+            "upper": 0.99569928,
+            "sigma": 7.778174593040176e-06,
+            "half": 1.077999999998358e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 112300.0,
+            "lower": 112274.52,
+            "upper": 112325.48
+          },
+          "window_means": {
+            "0": 0.995694,
+            "1": 0.995683
+          },
+          "window_bytes": {
+            "0": 112313,
+            "1": 112287
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9774636333333333,
+        "ssim_lower": 0.9774245488713794,
+        "ssim_upper": 0.9775027177952872,
+        "bytes_mean": 182964,
+        "bytes_lower": 179096,
+        "bytes_upper": 186833,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "52f445e11b",
+          "config_id": "480p_q3_good",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "burst",
+          "hypothesis": "R1:burst:floor<0.93",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "burst",
+            "floor": 0.93,
+            "ssim_upper": 0.849331,
+            "ssim_mean": 0.849039,
+            "ssim_lower": 0.848747,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "burst",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.84889,
+              "1": 0.849188
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "480p_q4_fair": {
+      "config": {
+        "config_id": "480p_q4_fair",
+        "res_label": "480p",
+        "q_label": "q4_fair",
+        "width": 854,
+        "height": 480,
+        "crf": 33
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9976535,
+            "lower": 0.99764468,
+            "upper": 0.99766232,
+            "sigma": 6.3639610307049185e-06,
+            "half": 8.820000000036021e-06
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 12968.5,
+            "lower": 12577.48,
+            "upper": 13359.52
+          },
+          "window_means": {
+            "0": 0.997649,
+            "1": 0.997658
+          },
+          "window_bytes": {
+            "0": 12769,
+            "1": 13168
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.846549,
+            "lower": 0.84612956,
+            "upper": 0.84696844,
+            "sigma": 0.0003026417023479095,
+            "half": 0.0004194400000000931
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 33309.5,
+            "lower": 30874.2,
+            "upper": 35744.8
+          },
+          "window_means": {
+            "0": 0.846335,
+            "1": 0.846763
+          },
+          "window_bytes": {
+            "0": 32067,
+            "1": 34552
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9811645,
+            "lower": 0.98098712,
+            "upper": 0.98134188,
+            "sigma": 0.00012798632739475572,
+            "half": 0.00017737999999998698
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 60459.0,
+            "lower": 60188.52,
+            "upper": 60729.48
+          },
+          "window_means": {
+            "0": 0.981255,
+            "1": 0.981074
+          },
+          "window_bytes": {
+            "0": 60597,
+            "1": 60321
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9731091666666666,
+        "ssim_lower": 0.9730357291809556,
+        "ssim_upper": 0.9731826041523776,
+        "bytes_mean": 106737,
+        "bytes_lower": 103640,
+        "bytes_upper": 109834,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "782cc6493a",
+          "config_id": "480p_q4_fair",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "mid_fabric",
+          "hypothesis": "R1:mid_fabric:floor<0.985",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "mid_fabric",
+            "floor": 0.985,
+            "ssim_upper": 0.981342,
+            "ssim_mean": 0.981164,
+            "ssim_lower": 0.980987,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "mid_fabric",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.981255,
+              "1": 0.981074
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "480p_q5_coarse": {
+      "config": {
+        "config_id": "480p_q5_coarse",
+        "res_label": "480p",
+        "q_label": "q5_coarse",
+        "width": 854,
+        "height": 480,
+        "crf": 38
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9973125,
+            "lower": 0.9972919200000001,
+            "upper": 0.99733308,
+            "sigma": 1.484924240487347e-05,
+            "half": 2.057999999993898e-05
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 9193.5,
+            "lower": 8467.32,
+            "upper": 9919.68
+          },
+          "window_means": {
+            "0": 0.997323,
+            "1": 0.997302
+          },
+          "window_bytes": {
+            "0": 8823,
+            "1": 9564
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.8413545,
+            "lower": 0.840889,
+            "upper": 0.84182,
+            "sigma": 0.0003358757210636123,
+            "half": 0.00046550000000000313
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 26563.5,
+            "lower": 25447.28,
+            "upper": 27679.72
+          },
+          "window_means": {
+            "0": 0.841117,
+            "1": 0.841592
+          },
+          "window_bytes": {
+            "0": 25994,
+            "1": 27133
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9598415,
+            "lower": 0.95858612,
+            "upper": 0.96109688,
+            "sigma": 0.0009058037866999509,
+            "half": 0.001255379999999977
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 22850.0,
+            "lower": 21873.92,
+            "upper": 23826.08
+          },
+          "window_means": {
+            "0": 0.960482,
+            "1": 0.959201
+          },
+          "window_bytes": {
+            "0": 23348,
+            "1": 22352
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9665258333333334,
+        "ssim_lower": 0.9661851364621428,
+        "ssim_upper": 0.9668665302045241,
+        "bytes_mean": 58607,
+        "bytes_lower": 55789,
+        "bytes_upper": 61425,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "71b30d79e9",
+          "config_id": "480p_q5_coarse",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "mid_fabric",
+          "hypothesis": "R1:mid_fabric:floor<0.985",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "mid_fabric",
+            "floor": 0.985,
+            "ssim_upper": 0.961097,
+            "ssim_mean": 0.959842,
+            "ssim_lower": 0.958586,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "mid_fabric",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.960482,
+              "1": 0.959201
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    },
+    "480p_q6_extreme": {
+      "config": {
+        "config_id": "480p_q6_extreme",
+        "res_label": "480p",
+        "q_label": "q6_extreme",
+        "width": 854,
+        "height": 480,
+        "crf": 43
+      },
+      "alive": false,
+      "shots": {
+        "head_static": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 180,
+          "ssim": {
+            "n": 2,
+            "mean": 0.9963774999999999,
+            "lower": 0.99612956,
+            "upper": 0.9966254399999999,
+            "sigma": 0.00017889801564015953,
+            "half": 0.0002479399999999487
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 7026.5,
+            "lower": 6811.88,
+            "upper": 7241.12
+          },
+          "window_means": {
+            "0": 0.996504,
+            "1": 0.996251
+          },
+          "window_bytes": {
+            "0": 6917,
+            "1": 7136
+          },
+          "provenance": "measured_windows"
+        },
+        "burst": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.8322674999999999,
+            "lower": 0.8310924799999999,
+            "upper": 0.83344252,
+            "sigma": 0.0008478210306427137,
+            "half": 0.00117502000000006
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 20737.5,
+            "lower": 19950.56,
+            "upper": 21524.44
+          },
+          "window_means": {
+            "0": 0.831668,
+            "1": 0.832867
+          },
+          "window_bytes": {
+            "0": 20336,
+            "1": 21139
+          },
+          "provenance": "measured_windows"
+        },
+        "mid_fabric": {
+          "windows": [
+            0,
+            1
+          ],
+          "frames_seen": 60,
+          "ssim": {
+            "n": 2,
+            "mean": 0.847103,
+            "lower": 0.8444472000000001,
+            "upper": 0.8497588,
+            "sigma": 0.0019162593770155369,
+            "half": 0.0026557999999999903
+          },
+          "bytes": {
+            "n": 2,
+            "mean": 6351.5,
+            "lower": 6142.76,
+            "upper": 6560.24
+          },
+          "window_means": {
+            "0": 0.848458,
+            "1": 0.845748
+          },
+          "window_bytes": {
+            "0": 6245,
+            "1": 6458
+          },
+          "provenance": "measured_windows"
+        }
+      },
+      "film_estimate": {
+        "provenance": "estimated",
+        "ssim_mean": 0.9346896333333332,
+        "ssim_lower": 0.9339491995866589,
+        "ssim_upper": 0.9354300670800075,
+        "bytes_mean": 34116,
+        "bytes_lower": 32905,
+        "bytes_upper": 35326,
+        "coverage": 1.0,
+        "known_shots": [
+          "head_static",
+          "mid_fabric",
+          "burst"
+        ],
+        "unknown_shots": []
+      },
+      "eliminations": [
+        {
+          "elim_id": "4648781289",
+          "config_id": "480p_q6_extreme",
+          "rule": "R1_floor",
+          "round": 0,
+          "shot_id": "mid_fabric",
+          "hypothesis": "R1:mid_fabric:floor<0.985",
+          "metric": "ssim_upper_vs_floor",
+          "evidence": {
+            "shot_id": "mid_fabric",
+            "floor": 0.985,
+            "ssim_upper": 0.849759,
+            "ssim_mean": 0.847103,
+            "ssim_lower": 0.844447,
+            "sampled_windows": [
+              0,
+              1
+            ],
+            "sampled_frame_range": {
+              "shot_id": "mid_fabric",
+              "start_frame": 0,
+              "end_frame": 59,
+              "frames": 60,
+              "note": "窗口可能不连续，以窗口清单为准"
+            },
+            "window_means": {
+              "0": 0.848458,
+              "1": 0.845748
+            },
+            "provenance": "measured_windows"
+          },
+          "created_at": "07:09:48",
+          "status": "eliminated"
+        }
+      ],
+      "reopened": [],
+      "full_encode": null,
+      "lock": null
+    }
+  },
+  "ledger": [
+    {
+      "elim_id": "a7745fb4d9",
+      "config_id": "1080p_q5_coarse",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "mid_fabric",
+      "hypothesis": "R1:mid_fabric:floor<0.985",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "mid_fabric",
+        "floor": 0.985,
+        "ssim_upper": 0.976708,
+        "ssim_mean": 0.976235,
+        "ssim_lower": 0.975761,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "mid_fabric",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.976476,
+          "1": 0.975993
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "df84283561",
+      "config_id": "1080p_q6_extreme",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "mid_fabric",
+      "hypothesis": "R1:mid_fabric:floor<0.985",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "mid_fabric",
+        "floor": 0.985,
+        "ssim_upper": 0.952924,
+        "ssim_mean": 0.95283,
+        "ssim_lower": 0.952736,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "mid_fabric",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.952878,
+          "1": 0.952782
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "ae51048af8",
+      "config_id": "720p_q1_visually_lossless",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "burst",
+      "hypothesis": "R1:burst:floor<0.93",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "burst",
+        "floor": 0.93,
+        "ssim_upper": 0.876328,
+        "ssim_mean": 0.875986,
+        "ssim_lower": 0.875643,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "burst",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.875811,
+          "1": 0.87616
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "20a5074fbb",
+      "config_id": "720p_q2_high",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "burst",
+      "hypothesis": "R1:burst:floor<0.93",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "burst",
+        "floor": 0.93,
+        "ssim_upper": 0.874527,
+        "ssim_mean": 0.874008,
+        "ssim_lower": 0.87349,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "burst",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.873744,
+          "1": 0.874273
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "e402547d30",
+      "config_id": "720p_q3_good",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "burst",
+      "hypothesis": "R1:burst:floor<0.93",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "burst",
+        "floor": 0.93,
+        "ssim_upper": 0.87354,
+        "ssim_mean": 0.873087,
+        "ssim_lower": 0.872633,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "burst",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.872855,
+          "1": 0.873318
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "e68473000d",
+      "config_id": "720p_q4_fair",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "burst",
+      "hypothesis": "R1:burst:floor<0.93",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "burst",
+        "floor": 0.93,
+        "ssim_upper": 0.872435,
+        "ssim_mean": 0.871788,
+        "ssim_lower": 0.871141,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "burst",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.871458,
+          "1": 0.872118
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "7ff37c0a51",
+      "config_id": "720p_q5_coarse",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "mid_fabric",
+      "hypothesis": "R1:mid_fabric:floor<0.985",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "mid_fabric",
+        "floor": 0.985,
+        "ssim_upper": 0.97525,
+        "ssim_mean": 0.974378,
+        "ssim_lower": 0.973506,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "mid_fabric",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.974823,
+          "1": 0.973933
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "329d5e761c",
+      "config_id": "720p_q6_extreme",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "mid_fabric",
+      "hypothesis": "R1:mid_fabric:floor<0.985",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "mid_fabric",
+        "floor": 0.985,
+        "ssim_upper": 0.930046,
+        "ssim_mean": 0.912898,
+        "ssim_lower": 0.89575,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "mid_fabric",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.904149,
+          "1": 0.921647
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "d7acd9ba6a",
+      "config_id": "480p_q1_visually_lossless",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "burst",
+      "hypothesis": "R1:burst:floor<0.93",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "burst",
+        "floor": 0.93,
+        "ssim_upper": 0.851198,
+        "ssim_mean": 0.850923,
+        "ssim_lower": 0.850647,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "burst",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.850782,
+          "1": 0.851063
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "ca2656482f",
+      "config_id": "480p_q2_high",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "burst",
+      "hypothesis": "R1:burst:floor<0.93",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "burst",
+        "floor": 0.93,
+        "ssim_upper": 0.850118,
+        "ssim_mean": 0.849655,
+        "ssim_lower": 0.849192,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "burst",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.849419,
+          "1": 0.849891
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "52f445e11b",
+      "config_id": "480p_q3_good",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "burst",
+      "hypothesis": "R1:burst:floor<0.93",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "burst",
+        "floor": 0.93,
+        "ssim_upper": 0.849331,
+        "ssim_mean": 0.849039,
+        "ssim_lower": 0.848747,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "burst",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.84889,
+          "1": 0.849188
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "782cc6493a",
+      "config_id": "480p_q4_fair",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "mid_fabric",
+      "hypothesis": "R1:mid_fabric:floor<0.985",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "mid_fabric",
+        "floor": 0.985,
+        "ssim_upper": 0.981342,
+        "ssim_mean": 0.981164,
+        "ssim_lower": 0.980987,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "mid_fabric",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.981255,
+          "1": 0.981074
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "71b30d79e9",
+      "config_id": "480p_q5_coarse",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "mid_fabric",
+      "hypothesis": "R1:mid_fabric:floor<0.985",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "mid_fabric",
+        "floor": 0.985,
+        "ssim_upper": 0.961097,
+        "ssim_mean": 0.959842,
+        "ssim_lower": 0.958586,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "mid_fabric",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.960482,
+          "1": 0.959201
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    },
+    {
+      "elim_id": "4648781289",
+      "config_id": "480p_q6_extreme",
+      "rule": "R1_floor",
+      "round": 0,
+      "shot_id": "mid_fabric",
+      "hypothesis": "R1:mid_fabric:floor<0.985",
+      "metric": "ssim_upper_vs_floor",
+      "evidence": {
+        "shot_id": "mid_fabric",
+        "floor": 0.985,
+        "ssim_upper": 0.849759,
+        "ssim_mean": 0.847103,
+        "ssim_lower": 0.844447,
+        "sampled_windows": [
+          0,
+          1
+        ],
+        "sampled_frame_range": {
+          "shot_id": "mid_fabric",
+          "start_frame": 0,
+          "end_frame": 59,
+          "frames": 60,
+          "note": "窗口可能不连续，以窗口清单为准"
+        },
+        "window_means": {
+          "0": 0.848458,
+          "1": 0.845748
+        },
+        "provenance": "measured_windows"
+      },
+      "created_at": "07:09:48",
+      "status": "eliminated"
+    }
+  ],
+  "append_log": [
+    {
+      "config_id": "1080p_q4_fair",
+      "shot_id": "mid_fabric",
+      "window": 2,
+      "reason": "uncertainty",
+      "interval_half": 4.9e-05,
+      "pressure": 4.9e-05
+    },
+    {
+      "config_id": "1080p_q4_fair",
+      "shot_id": "mid_fabric",
+      "window": 3,
+      "reason": "uncertainty",
+      "interval_half": 3.2e-05,
+      "pressure": 3.2e-05
+    },
+    {
+      "config_id": "1080p_q3_good",
+      "shot_id": "head_static",
+      "window": 2,
+      "reason": "uncertainty",
+      "interval_half": 2.4e-05,
+      "pressure": 2.4e-05
+    }
+  ],
+  "lock_log": [
+    {
+      "config_id": "720p_q1_visually_lossless",
+      "full_jobs": [],
+      "frames": 450,
+      "newly_encoded_frames": 0,
+      "reused_cached_frames": 450,
+      "counterexample": null,
+      "reopened": []
+    }
+  ],
+  "audit": {
+    "exhaustive_frontier": [
+      {
+        "config_id": "1080p_q4_fair",
+        "file_bytes": 892384,
+        "ssim_avg": 0.988754
+      },
+      {
+        "config_id": "1080p_q3_good",
+        "file_bytes": 1578490,
+        "ssim_avg": 0.990294
+      },
+      {
+        "config_id": "1080p_q2_high",
+        "file_bytes": 2607093,
+        "ssim_avg": 0.991184
+      },
+      {
+        "config_id": "1080p_q1_visually_lossless",
+        "file_bytes": 4055269,
+        "ssim_avg": 0.991674
+      }
+    ],
+    "missed_frontier_configs": [],
+    "missed_count": 0,
+    "rescued_frontier_configs": [],
+    "abandoned_frontier_count": 0,
+    "survivor_count": 4,
+    "eliminated_count": 14,
+    "exhaustive_cost_frames": 8100,
+    "search_window_frames": 5550,
+    "lock_full_frames": 450,
+    "lock_newly_encoded_frames": 0,
+    "lock_reused_cached_frames": 450,
+    "total_full_frames_in_store": 8100,
+    "really_encoded_frames": 6000,
+    "saved_frames_vs_exhaustive": 2550,
+    "saved_pct": 31.48,
+    "locked_configs": [
+      "720p_q1_visually_lossless"
+    ],
+    "counterexamples": [],
+    "note": "漏解 = 完整编码前沿上却被早停淘汰的配置；节省帧数只统计真实跑过的编码，预测值不计入。"
+  },
+  "role": "search"
+}

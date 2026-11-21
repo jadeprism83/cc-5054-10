@@ -18,6 +18,7 @@ from db import connect
 from paths import OVERHEAD_PATH, PLAN_PATH, SEGMENTS
 from selection import (greedy_allocate, joint_allocate, load_candidates,
                        run as run_selection)
+import search_panel
 
 CSS = """
 :root { --bg:#0e1524; --panel:#16203330; --ink:#e6edf7; --mut:#93a3bd;
@@ -95,7 +96,8 @@ def page(shell_inner, title="编码方案工作台"):
            "<a href='/compare'>入选 vs 落选对看</a>"
            "<a href='/failures'>编码失败案例</a>"
            "<a href='/deliverable'>成品与容器开销</a>"
-           "<a href='/reselect'>不可行约束</a></nav>")
+           "<a href='/reselect'>不可行约束</a>"
+           "<a href='/search'>早停搜索器</a></nav>")
     return (f"<!doctype html><html lang='zh-CN'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>{title}</title><style>{CSS}</style></head><body>"
@@ -391,6 +393,21 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(deliverable_html())
             if path == "/reselect":
                 return self._send(reselect_html(query))
+            if path == "/search":
+                return self._send(page(search_panel.panel_page(query),
+                                       title="可撤销早停搜索器"))
+            if path == "/api/search":
+                rid = query.get("run", [""])[0]
+                return self._send(search_panel.api_run(rid),
+                                  "application/json")
+            if path == "/api/search/runs":
+                from searcher import list_runs
+                return self._send(json.dumps(list_runs(), ensure_ascii=False),
+                                  "application/json")
+            if path == "/search/video":
+                return self._serve_search_artifact(
+                    query.get("kind", ["window"])[0],
+                    query.get("job", [""])[0])
             if path == "/api/plan":
                 return self._send(json.dumps(load_plan(), ensure_ascii=False),
                                   "application/json")
@@ -412,6 +429,37 @@ class Handler(BaseHTTPRequestHandler):
         except Exception:
             import traceback
             self._send("<pre>" + traceback.format_exc() + "</pre>", code=500)
+
+    def do_POST(self):
+        parsed = urllib.parse.urlparse(self.path)
+        try:
+            if parsed.path == "/search/lock":
+                length = int(self.headers.get("Content-Length", 0))
+                post = self.rfile.read(length).decode("utf-8")
+                redirect = search_panel.handle_lock(post)
+                self.send_response(303)
+                self.send_header("Location", redirect)
+                self.send_header("Content-Length", "0")
+                self.end_headers()
+                return
+            self._send("not found", code=404)
+        except FileNotFoundError as e:
+            self._send(f"missing: {e}", code=404)
+        except Exception:
+            import traceback
+            self._send("<pre>" + traceback.format_exc() + "</pre>", code=500)
+
+    def _serve_search_artifact(self, kind, job_id):
+        from search_store import connect as search_connect
+        table = "window_jobs" if kind == "window" else "full_encodes"
+        conn = search_connect()
+        row = conn.execute(
+            f"SELECT output_path FROM {table} WHERE job_id=?",
+            (job_id,)).fetchone()
+        conn.close()
+        if not row:
+            return self._send("unknown search job", code=404)
+        self._range_file(row["output_path"], "video/mp4")
 
     def _serve_job_video(self, job_id):
         conn = connect()
